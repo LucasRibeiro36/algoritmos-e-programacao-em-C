@@ -15,4 +15,4 @@ int main(void){
     soma =  a + b;
     printf("a soma de %d + %d = %f", a, b , soma);
 
-}a
+}
