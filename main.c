@@ -13,6 +13,7 @@ int main(void) {
     printf("digite outro numero:");
     scanf("%d", &b);
     soma = a + b;
-    printf("a soma de %d + %d = %f", a, b, soma);
+    printf("a soma de %d + %d = %f\n", a, b, soma);
+    system("PAUSE");
     return(0);
 }
