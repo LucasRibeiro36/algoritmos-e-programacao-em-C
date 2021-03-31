@@ -4,5 +4,4 @@ project(algoritmos_e_programacao_em_C C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(algoritmos_e_programacao_em_C
-        main.c)
-        main.c)
+        if_else/nota_aluno2.c)
