@@ -4,5 +4,5 @@ project(algoritmos_e_programacao_em_C C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(algoritmos_e_programacao_em_C
-        if_else/Calculo.c)
+        if_else/Calculo.c if_else/Dobroetriplo.c)
 
