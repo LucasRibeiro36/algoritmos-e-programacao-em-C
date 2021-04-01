@@ -5,8 +5,9 @@
 
 int main(){
     int a,b,c;
-    printf("Digite 3 numeros:");
-    scanf("%i %i %i",&a,&b,&c);
-    
+    printf("Digite 2 numeros:");
+    scanf("%i %i",&a,&b);
+    c = (a == b) ? a + b : a * b;
+    printf("%i",c);
 }
 
