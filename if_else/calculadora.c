@@ -7,7 +7,7 @@
 int main(void) {
     int a,b;
     char operador;
-    printf("Digite a operador:");
+    printf("Digite a conta:");
     scanf("%i %c %i",&a,&operador,&b);
     switch (operador) {
         case '+':
