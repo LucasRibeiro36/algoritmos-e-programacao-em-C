@@ -11,4 +11,5 @@ int main(){
     printf ("Digite um numero hexadecimal: ");
     scanf ("%X",&h2);
     printf ("A soma e %X \n",h+h2);
+
 }

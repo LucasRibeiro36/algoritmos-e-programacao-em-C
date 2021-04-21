@@ -8,4 +8,5 @@ int main(){
     for(i=20; i <= 50; i++)
         soma+=i;
     printf("%d",soma);
+
 }
