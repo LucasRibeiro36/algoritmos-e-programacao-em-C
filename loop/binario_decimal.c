@@ -18,4 +18,5 @@ int main() {
             printf("\n%d\n",s- 1- i);
         }}
     printf("O numero em decimal e %d\n", decimal);
+
 }

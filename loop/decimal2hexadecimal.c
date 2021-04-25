@@ -9,5 +9,4 @@ int main(){
     printf ("Digite o um numero decimal: ");
     scanf ("%d",&d);
     printf ("O numero %d em hex e %2X:\n",d,d);
-
 }

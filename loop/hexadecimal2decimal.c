@@ -9,5 +9,4 @@ int main(){
     printf ("Digite um numero hexadecimal: ");
     scanf ("%X",&h);
     printf ("O numero %X em decimal e %d :\n",h,h);
-
 }
