@@ -5,16 +5,17 @@
 #include <stdio.h>
 
 int main(){
-    int numero = 90;
-    int binario[8],i;
-
-    for(i = 7; i >= 0; i--){
+    int numero;
+    int binario[16],i;
+    printf("Digite o numero:");
+    scanf("%d",&numero);
+    for(i = 15; i >= 0; i--){
         if (numero % 2 == 0)
             binario[i] = 0;
         else
             binario[i] = 1;
         numero = numero / 2;
     }
-    for (i = 0; i < 8; i++)
+    for (i = 0; i < 16; i++)
         printf("%d", binario[i]);
 }

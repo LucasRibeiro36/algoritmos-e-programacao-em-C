@@ -15,7 +15,6 @@ int main() {
     for (i = s-1; i >= 0; i--){
         if (bin[i] == '1') {
             decimal += pow(2, s - 1 - i);
-            printf("\n%d\n",s- 1- i);
         }}
     printf("O numero em decimal e %d\n", decimal);
 
