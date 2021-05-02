@@ -7,14 +7,19 @@
 
 int main() {
     setlocale(LC_ALL, "Portuguese");
-    int i,s=0,auxiliar,a=0,b=1;
-    for(i=0;i<=80;i+=5){
+    double i,s=0,auxiliar,a=0,b=1;
+    printf("S = 100");
+    for(i=0;i<=80;i+=5.0){
         auxiliar = a + b;
         a = b;
         b = auxiliar;
-        if(i!=0)
-            s+= auxiliar/i;
+        if(i!=0){
+            s+= i/auxiliar;
+            printf(" + %.0f/%.0f",i,auxiliar);
+        } else{
+            printf(" + %.0f/%.0f",i,auxiliar);
         }
-    printf("%d",s+100);
+    }
+    printf(" = %f",s+100);
 
 }
