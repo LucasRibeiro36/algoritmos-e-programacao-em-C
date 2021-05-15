@@ -29,7 +29,6 @@ def start_threads(lock, limit,numero,):
 def stop_threads(threads):
     for t in threads:
         t.join()
-
 def main():
     limit = 1
     numero = 50423
