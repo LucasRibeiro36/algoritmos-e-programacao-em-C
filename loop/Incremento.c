@@ -12,5 +12,5 @@ int main(){
     scanf("%d",&incr);
     for(i=0;i<=limite;i = i + incr){
         printf("%d\n",i);
-    }
+    } 
 }

@@ -20,6 +20,6 @@ int main() {
             printf(" + %.0f/%.0f",i,auxiliar);
         }
     }
-    printf(" = %f",s+100);
+    printf(" = %f\n\n",s+100);
 
 }

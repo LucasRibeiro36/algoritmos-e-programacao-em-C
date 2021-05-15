@@ -1,6 +1,5 @@
 //* Variaveis em C *//
 #include <stdio.h>
-#include <conio.h>
 int main(){
     int soma, a, b;
     a = 1;
