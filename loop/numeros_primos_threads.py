@@ -31,7 +31,7 @@ def stop_threads(threads):
         t.join()
 def main():
     limit = 1
-    numero = 50423
+    numero = 0
     try:
         while True:
             numero+=1
