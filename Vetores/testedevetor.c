@@ -1,10 +1,13 @@
 #include <stdio.h>
 int main(){
-
-    for (int i = 0; i < 6; i++)
+    const char* array[12] = {"_", "-", "_", "-", "_", "_", "*", "&", "¨¨", "%%", "@", "!"};
+    printf("\n");
+    for (int i = 1; i < 12; i++)
     {
-        for (int cont = 0; cont < 6; cont++){
-            printf("%d %d \n",i,cont);
+        for (int cont = 1; cont < i+1; cont++){
+            printf("%s ",array[cont]);
         }
+        printf("\n");
     }
+    printf("\n");
 }

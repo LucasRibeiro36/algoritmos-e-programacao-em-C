@@ -12,7 +12,7 @@ int main(){
     salario1 = horas * 12.00;
     salario2 = horas * 17.00;
     salario3 = horas * 25.00;
-    printf("Salario Professor Nivel 1 = %f\n",salario1);
-    printf("Salario Professor Nivel 2 = %f\n",salario2);
-    printf("Salario Professor Nivel 3 = %f\n",salario3);
+    printf("Salario Professor Nivel 1 = %.2f\n",salario1);
+    printf("Salario Professor Nivel 2 = %.2f\n",salario2);
+    printf("Salario Professor Nivel 3 = %.2f\n",salario3);
 }
