@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-gcc-9 -O3 -DNDEBUG   CMakeFiles/algoritmos_e_programacao_em_C.dir/Vetores/testedevetor.c.o  -o algoritmos_e_programacao_em_C  -lm 

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lucasr/algoritmos-e-programacao-em-C/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-9   -O3 -DNDEBUG   -o CMakeFiles/algoritmos_e_programacao_em_C.dir/Vetores/testedevetor.c.o   -c /home/lucasr/algoritmos-e-programacao-em-C/Vetores/testedevetor.c",
+  "file": "/home/lucasr/algoritmos-e-programacao-em-C/Vetores/testedevetor.c"
+}
+]

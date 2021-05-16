@@ -1,0 +1,3 @@
+/home/lucasr/algoritmos-e-programacao-em-C/build/CMakeFiles/rebuild_cache.dir
+/home/lucasr/algoritmos-e-programacao-em-C/build/CMakeFiles/edit_cache.dir
+/home/lucasr/algoritmos-e-programacao-em-C/build/CMakeFiles/algoritmos_e_programacao_em_C.dir

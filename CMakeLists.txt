@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.16)
 project(algoritmos_e_programacao_em_C C)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 add_executable(algoritmos_e_programacao_em_C
-        loop/Calculo_de_Expressoes.c)
+        Vetores/testedevetor.c)
 target_link_libraries(algoritmos_e_programacao_em_C m)
