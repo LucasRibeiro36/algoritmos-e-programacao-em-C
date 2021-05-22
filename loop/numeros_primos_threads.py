@@ -2,9 +2,6 @@ import threading
 import time
 
 
-
-
-
 class PRIMOS(threading.Thread):
     def __init__(self, lock,numero,):
         super(PRIMOS, self).__init__(daemon=True)
