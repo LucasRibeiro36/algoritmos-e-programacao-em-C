@@ -14,5 +14,5 @@ int main(void) {
     scanf("%d", &b);
     soma = a + b;
     printf("a soma de %d + %d = %f", a, b, soma);
-    return(0);
+    return (0);
 }

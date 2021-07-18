@@ -5,22 +5,22 @@
 #include <stdio.h>
 
 int main(void) {
-    int a,b;
+    int a, b;
     char operador;
     printf("Digite a conta:");
-    scanf("%i %c %i",&a,&operador,&b);
+    scanf("%i %c %i", &a, &operador, &b);
     switch (operador) {
         case '+':
-            printf("soma = %i + %i = %i",a,b,a+b);
+            printf("soma = %i + %i = %i", a, b, a + b);
             break;
         case '*':
-            printf("multiplicacao = %i * %i = %i",a,b,a*b);
+            printf("multiplicacao = %i * %i = %i", a, b, a * b);
             break;
         case '/':
-            printf("divisao = %i / %i = %i",a,b,a/b);
+            printf("divisao = %i / %i = %i", a, b, a / b);
             break;
         case '-':
-            printf("subtracao = %i - %i = %i",a,b,a-b);
+            printf("subtracao = %i - %i = %i", a, b, a - b);
     }
     return 0;
 }

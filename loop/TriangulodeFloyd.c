@@ -4,16 +4,14 @@
 
 #include <stdio.h>
 
-int main(){
-    int num,i = 0, num2 = 1, cont = 1;;
+int main() {
+    int num, i = 0, num2 = 1, cont = 1;;
     printf("Digite o numero: ");
-    scanf("%d",&num);
+    scanf("%d", &num);
 
-    while(i < num)
-    {
+    while (i < num) {
         int j;
-        for(j = 0; j < num2; j++)
-        {
+        for (j = 0; j < num2; j++) {
             printf("%d\t", cont);
             cont++;
         }

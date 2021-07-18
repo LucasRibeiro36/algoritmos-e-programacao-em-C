@@ -12,5 +12,5 @@ int main(void) {
     } else {
         printf("Nem na final vc conseguiu chegar!!!\n");
     }
-    return 0 ;
+    return 0;
 }

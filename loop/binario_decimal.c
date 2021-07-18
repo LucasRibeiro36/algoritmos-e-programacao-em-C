@@ -10,12 +10,13 @@ int main() {
     char bin[100];
     int decimal, i, s;
     printf("Digite o numero em binario:");
-    scanf("%s",bin);
+    scanf("%s", bin);
     s = strlen(bin);
-    for (i = s-1; i >= 0; i--){
+    for (i = s - 1; i >= 0; i--) {
         if (bin[i] == '1') {
             decimal += pow(2, s - 1 - i);
-        }}
+        }
+    }
     printf("O numero em decimal e %d\n", decimal);
 
 }

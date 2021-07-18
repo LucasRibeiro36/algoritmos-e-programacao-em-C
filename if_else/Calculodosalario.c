@@ -3,10 +3,10 @@
 //
 #include <stdio.h>
 
-int main(){
-    int ht,hte,sm,sb,ip,salario;
+int main() {
+    int ht, hte, sm, sb, ip, salario;
     printf("Digite as horas trabalhadas e salario minimo:");
-    scanf("%i %i",&ht,&sm);
+    scanf("%i %i", &ht, &sm);
     hte = ht * 0.1;
     sb = ht * hte;
     ip = sb * 0.03;

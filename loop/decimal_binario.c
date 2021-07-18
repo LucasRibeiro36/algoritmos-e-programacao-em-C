@@ -4,12 +4,12 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
     int numero;
-    int binario[16],i;
+    int binario[16], i;
     printf("Digite o numero:");
-    scanf("%d",&numero);
-    for(i = 15; i >= 0; i--){
+    scanf("%d", &numero);
+    for (i = 15; i >= 0; i--) {
         if (numero % 2 == 0)
             binario[i] = 0;
         else

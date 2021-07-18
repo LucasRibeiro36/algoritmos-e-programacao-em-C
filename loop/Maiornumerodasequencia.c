@@ -4,19 +4,19 @@
 
 #include <stdio.h>
 
-int main(){
-    int numero=1, maior = 0,menor;
-    while (numero > 0){
+int main() {
+    int numero = 1, maior = 0, menor;
+    while (numero > 0) {
         printf("Digite o numero: ");
-        scanf("%d",&numero);
-        if (numero > maior){
+        scanf("%d", &numero);
+        if (numero > maior) {
             maior = numero;
         }
-        if (numero < menor){
+        if (numero < menor) {
             menor = numero;
         }
-        printf("Maior numero é %d\n",maior);
-        printf("Menor numero é %d\n",menor);
+        printf("Maior numero é %d\n", maior);
+        printf("Menor numero é %d\n", menor);
     }
 
 }

@@ -3,10 +3,10 @@
 //
 #include <stdio.h>
 
-int main(){
+int main() {
     int numero;
     printf("Digite um numero:");
     scanf("%i", &numero);
-    if (numero > 0) printf("%i",numero*2);
-    else printf("%i",numero*3);
+    if (numero > 0) printf("%i", numero * 2);
+    else printf("%i", numero * 3);
 }

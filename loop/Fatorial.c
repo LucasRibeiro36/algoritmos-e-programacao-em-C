@@ -4,11 +4,11 @@
 
 #include <stdio.h>
 
-int main(){
-    int num,fatorial;
+int main() {
+    int num, fatorial;
     printf("Digite um numero: ");
-    scanf("%d",&num);
-    for(fatorial = 1; num >= 1; num = num - 1)
+    scanf("%d", &num);
+    for (fatorial = 1; num >= 1; num = num - 1)
         fatorial = fatorial * num;
-    printf("Fatorial = %d\n",fatorial);
+    printf("Fatorial = %d\n", fatorial);
 }
