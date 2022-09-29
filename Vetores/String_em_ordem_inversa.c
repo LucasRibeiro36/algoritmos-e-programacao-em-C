@@ -2,9 +2,13 @@
 #include <string.h>
 
 int main() {
-    char nome[] = "ALGORITMOS";
-    int quantidade = strlen(nome);;
-    for (int i = quantidade - 1; i >= 0; i--) {
-        printf("%c\n", nome[i]);
-    }
+  char nome[] = "ALGORITMOS";
+  char inv[10];
+  int j = 0;
+  int quantidade = strlen(nome);
+  for (int i = quantidade-1; i >= 0; i--) {
+    inv[j] = nome[i];
+    j++;
+  }
+  printf("%s", inv);
 }
